@@ -15,11 +15,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="street" translatesAutoresizingMaskIntoConstraints="NO" id="13H-uK-yHr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="street" translatesAutoresizingMaskIntoConstraints="NO" id="13H-uK-yHr">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player0" translatesAutoresizingMaskIntoConstraints="NO" id="NLa-dA-VIb">
-                                <rect key="frame" x="126.66666666666669" y="286" width="140" height="280"/>
+                                <rect key="frame" x="126.66666666666669" y="298.66666666666669" width="140" height="280.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NLa-dA-VIb" secondAttribute="height" multiplier="1:2" id="e7T-H4-4JP"/>
                                     <constraint firstAttribute="width" constant="140" id="llc-PS-516"/>
@@ -75,20 +76,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.90588235294117647" green="0.95686274509803915" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NLa-dA-VIb" firstAttribute="centerY" secondItem="13H-uK-yHr" secondAttribute="centerY" id="1RD-fC-nxH"/>
                             <constraint firstItem="Dlb-9B-171" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="1vM-29-2cS"/>
                             <constraint firstItem="Dlb-9B-171" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="4Wp-gR-4pH"/>
-                            <constraint firstAttribute="bottom" secondItem="13H-uK-yHr" secondAttribute="bottom" id="5hf-jC-Its"/>
-                            <constraint firstItem="13H-uK-yHr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7R8-CK-GPo"/>
                             <constraint firstAttribute="bottom" secondItem="gUJ-NB-XqU" secondAttribute="bottom" id="FpX-zv-7VC"/>
-                            <constraint firstItem="13H-uK-yHr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HO8-tv-TRi"/>
+                            <constraint firstItem="NLa-dA-VIb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nib-b7-V7P"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ysi-Wz-9an" secondAttribute="trailing" id="XCP-rw-Tt0"/>
                             <constraint firstItem="gUJ-NB-XqU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Yr0-OS-20v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dlb-9B-171" secondAttribute="trailing" constant="36" id="bqB-qf-EST"/>
                             <constraint firstItem="Ysi-Wz-9an" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dlb-7u-mbW"/>
                             <constraint firstItem="Ysi-Wz-9an" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="em1-en-fM9"/>
-                            <constraint firstItem="NLa-dA-VIb" firstAttribute="centerX" secondItem="13H-uK-yHr" secondAttribute="centerX" id="gXq-oN-bbZ"/>
-                            <constraint firstItem="13H-uK-yHr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q51-qb-D6x"/>
+                            <constraint firstItem="NLa-dA-VIb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="qTk-ZD-rp1"/>
                             <constraint firstItem="gUJ-NB-XqU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sc3-KS-VYV"/>
                             <constraint firstItem="gUJ-NB-XqU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vP1-l2-dRx"/>
                         </constraints>
